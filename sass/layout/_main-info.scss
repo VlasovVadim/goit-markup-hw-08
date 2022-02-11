@@ -1,5 +1,10 @@
 .main {
-  padding: 47px 0 94px 0;
+  display: none;
+  padding-bottom: 94px;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 0px;
+  } 
 }
 .main__info {
   font-size: 36px;
