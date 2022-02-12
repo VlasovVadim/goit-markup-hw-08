@@ -462,7 +462,6 @@
   display: flex;
   align-items: center;
   padding: 6px 22px;
-  margin-right: 8px;
   letter-spacing: 0.03em;
   border-radius: 4px;
   min-width: 75px;
@@ -620,7 +619,6 @@ div {
 
 section {
   display: block;
-  padding-bottom: 60px;
 }
 
 a {
@@ -804,7 +802,7 @@ a {
 .hero {
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/image/hero/overlay-mob-1x.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero/overlay-mob-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -896,8 +894,15 @@ a {
 }
 
 .advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .advantage__block {
@@ -1058,7 +1063,8 @@ a {
 }
 
 .team {
-  padding: 94px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-white-color);
 }
 
@@ -1080,7 +1086,7 @@ a {
 
 .team__worker {
   width: 100%;
-  background-color: var(--secondary-white-color);
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 30px;
@@ -1185,7 +1191,8 @@ a {
 }
 
 .team {
-  padding: 94px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-white-color);
 }
 
@@ -1207,7 +1214,7 @@ a {
 
 .team__worker {
   width: 100%;
-  background-color: var(--secondary-white-color);
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 30px;
@@ -1597,6 +1604,7 @@ a {
 
 .client {
   padding-top: 50px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
